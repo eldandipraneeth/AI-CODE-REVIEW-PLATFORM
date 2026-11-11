@@ -119,7 +119,6 @@ class AIReviewer:
         # --- MOCK MODE (FALLBACK LINTER) ---
         # If the API key is 'test_key', run basic static analysis instead of random issues
         if self._client.api_key == "test_key" or self._client.api_key == "dummy":
-            import time
             time.sleep(1) # Simulate network delay
             
             mock_issues = []
