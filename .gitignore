@@ -40,13 +40,12 @@ htmlcov/
 node_modules/
 
 frontend/node_modules/
-
-frontend/dist/
-
-package-lock.json
-
-
-node_modules/
-frontend/node_modules/
 frontend/dist/
 package-lock.json
+
+# Internal Docs & Learning Materials
+AGENTS.md
+DEPLOYMENT.md
+PROJECT_CONTEXT.md
+LEARNING_GUIDE/
+
